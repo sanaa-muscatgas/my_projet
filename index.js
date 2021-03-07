@@ -18,3 +18,8 @@ app.get("/test", function(request, response) {
 
 	response.render("testPage");
 });
+
+app.get("/sanaa", function(request, response) {
+
+	response.render("sanaa");
+});
